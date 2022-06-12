@@ -7,8 +7,12 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-}
 
+}
+.navbar-inverse {
+    background-color: #0d2560;
+    border-color: #ff0505
+}
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
@@ -21,4 +25,27 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+.course
+{
+ list-style: none;
+}
+.course > li
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.course > li .date
+{
+    text-align: center;
+    background-color: #d41d50;
+    color:white;
+    width:60px;
+    border-radius: 8px;
+}
+.course >li .details
+{
+    position: absolute;
+    top: 0;
+    left: 70px;
 }
