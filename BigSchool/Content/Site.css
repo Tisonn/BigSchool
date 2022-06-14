@@ -43,9 +43,8 @@ textarea {
     width:60px;
     border-radius: 8px;
 }
-.course >li .details
-{
-    position: absolute;
-    top: 0;
-    left: 70px;
-}
+    .course > li .details {
+        position: absolute;
+        top: 0;
+        left: 70px;
+    }
