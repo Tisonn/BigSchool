@@ -19,7 +19,7 @@ namespace BigSchool.Models
         [Required]
         public byte CategoryId { get; set; }
 
-        public string LectureId { get; set; }
+        public string LecturerId { get; set; }
     }
     
 }
