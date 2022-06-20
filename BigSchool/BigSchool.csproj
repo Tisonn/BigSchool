@@ -193,33 +193,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202205300159356_InitiaModel.cs" />
-    <Compile Include="Migrations\202205300159356_InitiaModel.designer.cs">
-      <DependentUpon>202205300159356_InitiaModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202205300228485_CreateTableCourse.cs" />
-    <Compile Include="Migrations\202205300228485_CreateTableCourse.designer.cs">
-      <DependentUpon>202205300228485_CreateTableCourse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202205300234333_PopulateCategoryTable.cs" />
-    <Compile Include="Migrations\202205300234333_PopulateCategoryTable.designer.cs">
-      <DependentUpon>202205300234333_PopulateCategoryTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202206060246359_InitialModel.cs" />
-    <Compile Include="Migrations\202206060246359_InitialModel.designer.cs">
-      <DependentUpon>202206060246359_InitialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202206060259370_abc.cs" />
-    <Compile Include="Migrations\202206060259370_abc.designer.cs">
-      <DependentUpon>202206060259370_abc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202206120914285_AddName.cs" />
-    <Compile Include="Migrations\202206120914285_AddName.designer.cs">
-      <DependentUpon>202206120914285_AddName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202206181345160_AddAttendance.cs" />
-    <Compile Include="Migrations\202206181345160_AddAttendance.designer.cs">
-      <DependentUpon>202206181345160_AddAttendance.cs</DependentUpon>
+    <Compile Include="Migrations\202206200121412_UpdateDB.cs" />
+    <Compile Include="Migrations\202206200121412_UpdateDB.designer.cs">
+      <DependentUpon>202206200121412_UpdateDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -311,26 +287,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202205300159356_InitiaModel.resx">
-      <DependentUpon>202205300159356_InitiaModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202205300228485_CreateTableCourse.resx">
-      <DependentUpon>202205300228485_CreateTableCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202205300234333_PopulateCategoryTable.resx">
-      <DependentUpon>202205300234333_PopulateCategoryTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206060246359_InitialModel.resx">
-      <DependentUpon>202206060246359_InitialModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206060259370_abc.resx">
-      <DependentUpon>202206060259370_abc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206120914285_AddName.resx">
-      <DependentUpon>202206120914285_AddName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206181345160_AddAttendance.resx">
-      <DependentUpon>202206181345160_AddAttendance.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202206200121412_UpdateDB.resx">
+      <DependentUpon>202206200121412_UpdateDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
